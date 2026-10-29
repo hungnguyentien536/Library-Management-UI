@@ -1,0 +1,24 @@
+{
+  "name": "library-db-ui",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Giao diện web quản lý thư viện cho cơ sở dữ liệu library_db (MySQL 8)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:setup": "node scripts/setup-db.js",
+    "db:check": "node scripts/check-db.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["mysql", "library", "express", "btl-csdl"],
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.24.6"
+  }
+}
