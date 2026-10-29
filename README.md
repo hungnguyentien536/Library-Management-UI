@@ -137,7 +137,7 @@ library-db-ui/
 ### Bước 1. Lấy mã nguồn và cài thư viện
 
 ```bash
-git clone https://github.com/<tài-khoản>/library-db-ui.git
+git clone https://github.com/hungnguyentien536/library-db-ui.git
 cd library-db-ui
 npm install
 ```
